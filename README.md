@@ -11,6 +11,10 @@ Cali is a deep learning model for detecting and annotating calibration poles in 
 pip install git+https://github.com/bencevans/cali.git
 ```
 
+If you use [uv](https://docs.astral.sh/uv/), you can run the CLI without installing the package into your global Python environment:
+
+    uvx --from git+https://github.com/bencevans/cali cali
+
 ## CLI
 
 ### `detect`
