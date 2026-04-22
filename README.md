@@ -8,7 +8,7 @@ Cali is a deep learning model for detecting and annotating calibration poles in 
 ## Installation
 
 ```bash
-pip install cali
+pip install git+https://github.com/bencevans/cali.git
 ```
 
 ## CLI
