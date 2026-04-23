@@ -1,7 +1,12 @@
 # Cali
 
+
 Cali is a deep learning model for detecting and annotating calibration poles in camera trap imagery.
 
+
+<a target="_blank" href="https://colab.research.google.com/github/bencevans/cali/blob/main/notebooks/running_cali.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 ![./example.png](./example.png)
 
@@ -25,13 +30,13 @@ Run detection on a single image or a directory of images and save the results to
 cali detect [--conf-threshold FLOAT] [--recursive] [--relative] <image_source> <output>
 ```
 
-| Argument | Description |
-|---|---|
-| `image_source` | Path to an image file or a directory of images |
-| `output` | Path to write the JSON results file |
-| `--conf-threshold` | Confidence threshold for detections (default: `0.5`) |
-| `--recursive` | Recurse into subdirectories when `image_source` is a directory |
-| `--relative` | Store image paths relative to `image_source` in the JSON output |
+| Argument           | Description                                                     |
+| ------------------ | --------------------------------------------------------------- |
+| `image_source`     | Path to an image file or a directory of images                  |
+| `output`           | Path to write the JSON results file                             |
+| `--conf-threshold` | Confidence threshold for detections (default: `0.5`)            |
+| `--recursive`      | Recurse into subdirectories when `image_source` is a directory  |
+| `--relative`       | Store image paths relative to `image_source` in the JSON output |
 
 **Examples**
 
