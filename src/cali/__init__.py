@@ -37,7 +37,7 @@ class Cali:
     """
 
     def __init__(self, conf_threshold: float = 0.5) -> None:
-        self.model = YOLO("https://static.bencevans.io/cali/models/v0-yolo26n-pose-best.pt")
+        self.model = YOLO("https://github.com/bencevans/cali/releases/download/v0/v0-yolo26n-pose-best.pt")
         self.conf_threshold = conf_threshold
 
     def detect(self, image_path: str) -> ImageResult:
